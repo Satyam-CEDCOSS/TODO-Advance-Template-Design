@@ -1,0 +1,116 @@
+/* container  */
+.container{
+    margin: 30px;
+}
+
+/* nav  */
+.nav__ul{
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+}
+.nav__ul__li{
+    list-style: none;
+    padding: 10px;
+}
+
+/* Header  */
+.header__h1{
+    margin: 0px;
+    padding: 20px;
+}
+
+/* Section  */
+section{
+    background-color: #eeeeee;
+}
+.section__box{
+    padding: 40px 20px;
+    width: 30%;
+}
+
+/* Main  */
+.main__box{
+    display: flex;
+}
+.main__box1{
+    padding: 20px;
+    text-align: center;
+}
+.box_color{
+    height: 150px;
+    background-color: #eeeeee;
+}
+  
+/* Aside  */
+aside{
+    background-color: #eeeeee;
+}
+.aside__box{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.aside__box h1{
+    margin-right: 10px;
+}
+.aside__box input{
+    margin: 15px 5px 15px 10px;
+    height: 30px;
+    width: 300px;
+}
+.aside__box button{
+    margin: 15px 10px 15px 5px;
+    height: 36px;
+    width: 180px;
+    background-color: #288acf;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Footer  */
+.footer__box{
+    padding: 40px;
+}
+.footer__right{
+    float: right;
+    right: 80px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 800px) {
+    .section__box{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section__box{
+        width: 70%;
+    }
+    .main__box{
+        display: block;
+    }
+    .aside__box{
+        display: block;
+    }
+}
+@media only screen and (max-width: 453px) {
+    .section__box{
+        width: 90%;
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+    }
+    .aside__box input{
+        margin: 0px;
+        height: 30px;
+        width: 200px;
+    }
+    .aside__box button{
+        margin: 15px 0px 15px 0px;
+        height: 30px;
+        width: 120px;
+        background-color: #288acf;
+        color: white;
+        font-size: 1em;
+    }
+}
